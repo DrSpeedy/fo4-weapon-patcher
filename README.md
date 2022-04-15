@@ -3,8 +3,12 @@ Patches balistic weapons based on values input into an XLSX spreadsheet. Require
 
 #### Dependencies
 ```
+BASH:
  * bc
  * xlsx2csv
+ 
+FO4Edit:
+ * MXPF
 ```
 
 #### Installation
