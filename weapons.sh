@@ -54,7 +54,7 @@ wln() {
     echo "$1" | tee -a "$OUT_FILE"
 }
 
-data=$(parse_rows 1 9 1 | sed 's/ /\\_/g')
+data=$(parse_rows 1 11 1 | sed 's/ /\\_/g')
 
 saveIFS=$IFS
 for row in ${data[@]}; do
@@ -68,11 +68,13 @@ for row in ${data[@]}; do
     baseDmg="$(echo ${cols[3]} | sed 's/\\_/ /g')"
     randDmgMult="$(echo ${cols[6]} | sed 's/\\_/ /g')"
     outOfRangeDmgMult="$(echo ${cols[7]} | sed 's/\\_/ /g')"
-    onHit="$(echo ${cols[8]} | sed 's/\\_/ /g')"
-    reloadSpeedMult="$(echo ${cols[9]} | sed 's/\\_/ /g')"
+    baseDmgPistolMult="$(echo ${cols[8]} | sed 's/\\_/ /g')"
+    outOfRangePistolMult="$(echo ${cols[9]} | sed 's/\\_/ /g')"
+    onHit="$(echo ${cols[10]} | sed 's/\\_/ /g')"
+    reloadSpeedMult="$(echo ${cols[11]} | sed 's/\\_/ /g')"
     
     formID=${formID:(-6)}
 
-    echo "AmmoList.Add('$formID=$baseDmg,$randDmgMult,$outOfRangeDmgMult,$onHit,$reloadSpeedMult');" | tee -a "$OUT_FILE"
+    echo "AmmoList.Add('$formID=$baseDmg,$randDmgMult,$outOfRangeDmgMult,$baseDmgPistolMult,$outOfRangePistolMult,$onHit,$reloadSpeedMult');" | tee -a "$OUT_FILE"
 
 done
