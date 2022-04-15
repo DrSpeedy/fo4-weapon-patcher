@@ -26,42 +26,42 @@ begin
 	AmmoList := TStringList.Create;
 	
 	// Load values from CSV
-	AmmoList.Add('01F279=62,7,0.9,Normal formula behaviour,1');
-	AmmoList.Add('0020CB=58,7,0.89,Normal formula behaviour,1');
-	AmmoList.Add('01F278=29,4,0.8,No dismember/explode,1');
-	AmmoList.Add('037897=33,4,0.75,No dismember/explode,1');
-	AmmoList.Add('0020C0=36,4,0.75,No dismember/explode,1');
-	AmmoList.Add('0020C2=29,4,0.75,No dismember/explode,1');
-	AmmoList.Add('002173=27,4,0.7,No dismember/explode,1');
-	AmmoList.Add('002754=29,4,0.75,No dismember/explode,1');
-	AmmoList.Add('003958=31,4,0.75,No dismember/explode,1');
-	AmmoList.Add('01F276=26,4,0.55,No dismember/explode,1');
-	AmmoList.Add('01F66A=27,4,0.55,No dismember/explode,1');
-	AmmoList.Add('04CE87=25,4,0.5,No dismember/explode,1');
-	AmmoList.Add('09221C=33,4,0.68,No dismember/explode,1');
-	AmmoList.Add('000FFA=26,4,0.7,No dismember/explode,1');
-	AmmoList.Add('0020BF=24,4,0.5,No dismember/explode,1');
-	AmmoList.Add('0020C1=27,4,0.55,No dismember/explode,1');
-	AmmoList.Add('00217B=34,4,0.6,Normal formula behaviour,1');
-	AmmoList.Add('01F673=56,6,0.35,Explode only,1');
-	AmmoList.Add('003B88=39,6,0.3,Normal formula behaviour,1');
-	AmmoList.Add('01F66B=49,7,0.8,No dismember/explode,1');
-	AmmoList.Add('01F66C=49,7,0.8,No dismember/explode,1');
-	AmmoList.Add('0012FE=46,7,0.78,No dismember/explode,1');
-	AmmoList.Add('001340=55,7,0.85,No dismember/explode,1');
-	AmmoList.Add('0013B4=42,7,0.78,No dismember/explode,1');
-	AmmoList.Add('0020BE=44,7,0.78,No dismember/explode,1');
-	AmmoList.Add('02C8B1=41,4,0.68,Normal formula behaviour,1');
-	AmmoList.Add('04742B=25,4,0.52,No dismember/explode,1');
-	AmmoList.Add('009907=59,2,0.9,Explode only,1');
-	AmmoList.Add('18ABDF=56,4,0.78,Normal formula behaviour,1');
-	AmmoList.Add('0496EB=33,2,0.75,Normal formula behaviour,1');
-	AmmoList.Add('04D39C=41,2,0.68,Normal formula behaviour,1');
-	AmmoList.Add('245D53=49,2,0.8,Normal formula behaviour,1');
-	AmmoList.Add('1943D0=49,2,0.8,Normal formula behaviour,1');
-	AmmoList.Add('245D68=56,2,0.35,Normal formula behaviour,1');
-	AmmoList.Add('245D6A=26,2,0.55,Normal formula behaviour,1');
-	AmmoList.Add('245D6B=27,2,0.55,Normal formula behaviour,1');
+	AmmoList.Add('01F279=62,7,0.9,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('0020CB=58,7,0.89,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('01F278=29,4,0.8,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('037897=33,4,0.75,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('0020C0=36,4,0.75,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('0020C2=29,4,0.75,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('002173=27,4,0.7,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('002754=29,4,0.75,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('003958=31,4,0.75,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('01F276=26,4,0.55,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('01F66A=27,4,0.55,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('04CE87=25,4,0.5,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('09221C=33,4,0.68,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('000FFA=26,4,0.7,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('0020BF=24,4,0.5,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('0020C1=27,4,0.55,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('00217B=34,4,0.6,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('01F673=56,6,0.35,0.95,0.7,Explode only,1');
+	AmmoList.Add('003B88=39,6,0.3,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('01F66B=49,7,0.8,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('01F66C=49,7,0.8,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('0012FE=46,7,0.78,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('001340=55,7,0.85,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('0013B4=42,7,0.78,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('0020BE=44,7,0.78,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('02C8B1=41,4,0.68,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('04742B=25,4,0.52,0.95,0.7,No dismember/explode,1');
+	AmmoList.Add('009907=59,2,0.9,0.95,0.7,Explode only,1');
+	AmmoList.Add('18ABDF=56,4,0.78,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('0496EB=33,2,0.75,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('04D39C=41,2,0.68,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('245D53=49,2,0.8,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('1943D0=49,2,0.8,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('245D68=56,2,0.35,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('245D6A=26,2,0.55,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('245D6B=27,2,0.55,0.95,0.7,Normal formula behaviour,1');
 	
 	DefaultOptionsMXPF;
 	InitializeMXPF;
@@ -73,6 +73,7 @@ var
 	key: string;
 	tmpList: TStringList;
 	i, j: integer;
+	f: float;
 begin
     Result := 0;
 	tmpList := TStringList.Create;
@@ -90,17 +91,24 @@ begin
 				0 = baseDmg
 				1 = randDmgBoost
 				2 = outOfRangeMult
-				3 = onHit
-				4 = reloadSpeedMult
+				4 = baseDmgPistolMult
+				5 = outOfRangePistolMult
+				5 = onHit
+				6 = reloadSpeedMult
 			}
 			// Set base damage
 			j := random(strtoint(tmpList[1])) + strtoint(tmpList[0]);
+			if (HasKeyword(e, 'WeaponTypePistol')) then
+			begin
+				f := j;
+				j := Round(f * strtofloat(tmpList[4]));
+			end;
 			seev(e, 'DNAM\Damage - Base', inttostr(j));
 			
 			// Set other
 			seev(e, 'DNAM\Damage - OutOfRange Mult', tmpList[2]);
-			seev(e, 'DNAM\On Hit', tmpList[3]);
-			seev(e, 'DNAM\Reload Speed', tmpList[4]);
+			seev(e, 'DNAM\On Hit', tmpList[5]);
+			seev(e, 'DNAM\Reload Speed', tmpList[6]);
 			
 		//else
 		//	AddMessage('Ammo: ' + geev(e, 'DNAM\Ammo') + ' has not been registered!');
