@@ -90,9 +90,9 @@ begin
 			{
 				0 = baseDmg
 				1 = randDmgBoost
-				2 = outOfRangeMult
-				4 = baseDmgPistolMult
-				5 = outOfRangePistolMult
+				2 = outOfRangeBaseMult
+				3 = baseDmgPistolMult
+				4 = outOfRangePistolMult
 				5 = onHit
 				6 = reloadSpeedMult
 			}
@@ -101,9 +101,17 @@ begin
 			if (HasKeyword(e, 'WeaponTypePistol')) then
 			begin
 				f := j;
-				j := Round(f * strtofloat(tmpList[4]));
+				j := Round(f * strtofloat(tmpList[3]));
 			end;
 			seev(e, 'DNAM\Damage - Base', inttostr(j));
+			
+			// Set OutOfRange Mult
+			f := strtofloat(tmpList[2]);
+			if (HasKeyword(e, 'WeaponTypePistol')) then
+			begin
+				f := f * strtofloat(tmpList[4]);
+			end;
+			seev(e, 'DNAM\Damage - OutOfRange Mult', f);
 			
 			// Set other
 			seev(e, 'DNAM\Damage - OutOfRange Mult', tmpList[2]);
