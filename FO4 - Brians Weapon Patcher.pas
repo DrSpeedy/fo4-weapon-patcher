@@ -49,42 +49,42 @@ begin
 	omodAmmoList := TStringList.Create;
 	
 	// Update these values from the shell script or manualy edit them
-	AmmoList.Add('01F279=62,7,0.9,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('0020CB=58,7,0.89,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('01F278=29,4,0.8,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('037897=33,4,0.75,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('0020C0=36,4,0.75,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('0020C2=29,4,0.75,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('002173=27,4,0.7,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('002754=29,4,0.75,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('003958=31,4,0.75,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('01F276=26,4,0.55,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('01F66A=27,4,0.55,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('04CE87=25,4,0.5,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('09221C=33,4,0.68,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('000FFA=26,4,0.7,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('0020BF=24,4,0.5,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('0020C1=27,4,0.55,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('00217B=39,4,0.6,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('01F673=56,6,0.35,0.95,0.7,Explode only,1');
-	AmmoList.Add('003B88=39,6,0.3,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('01F66B=49,7,0.8,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('01F66C=49,7,0.8,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('0012FE=46,7,0.78,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('001340=55,7,0.85,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('0013B4=42,7,0.78,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('0020BE=44,7,0.78,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('02C8B1=41,4,0.68,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('04742B=25,4,0.52,0.95,0.7,No dismember/explode,1');
-	AmmoList.Add('009907=59,2,0.9,0.95,0.7,Explode only,1');
-	AmmoList.Add('18ABDF=56,4,0.78,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('0496EB=33,2,0.75,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('04D39C=41,2,0.68,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('245D53=49,2,0.8,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('1943D0=49,2,0.8,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('245D68=56,2,0.35,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('245D6A=26,2,0.55,0.95,0.7,Normal formula behaviour,1');
-	AmmoList.Add('245D6B=27,2,0.55,0.95,0.7,Normal formula behaviour,1');
+	AmmoList.Add('01F279=62,7,0.9,0.95,0.7,Normal formula behaviour,1'); // .50 BMG
+	AmmoList.Add('0020CB=58,7,0.89,0.95,0.7,Normal formula behaviour,1'); // .338 LM
+	AmmoList.Add('01F278=29,4,0.8,0.95,0.7,No dismember/explode,1'); // 5.56x45mm
+	AmmoList.Add('037897=33,4,0.75,0.95,0.7,No dismember/explode,1'); // 7.62x39mm
+	AmmoList.Add('0020C0=36,4,0.75,0.95,0.7,No dismember/explode,1'); // 9x39mm
+	AmmoList.Add('0020C2=29,4,0.75,0.95,0.7,No dismember/explode,1'); // .300 BLK
+	AmmoList.Add('002173=27,4,0.7,0.95,0.7,No dismember/explode,1'); // .223 REM
+	AmmoList.Add('002754=29,4,0.75,0.95,0.7,No dismember/explode,1'); // 5.49x45mm
+	AmmoList.Add('003958=31,4,0.75,0.95,0.7,No dismember/explode,1'); // 6.8 SPC
+	AmmoList.Add('01F276=26,4,0.55,0.95,0.7,No dismember/explode,1'); // 10mm
+	AmmoList.Add('01F66A=27,4,0.55,0.95,0.7,No dismember/explode,1'); // .45 ACP
+	AmmoList.Add('04CE87=25,4,0.5,0.95,0.7,No dismember/explode,1'); // 9x19mm
+	AmmoList.Add('09221C=33,4,0.68,0.95,0.7,No dismember/explode,1'); // .44 Mag
+	AmmoList.Add('000FFA=26,4,0.7,0.95,0.7,No dismember/explode,1'); // 5.7x28mm
+	AmmoList.Add('0020BF=24,4,0.5,0.95,0.7,No dismember/explode,1'); // 9x18mm
+	AmmoList.Add('0020C1=27,4,0.55,0.95,0.7,No dismember/explode,1'); // .40 S&W
+	AmmoList.Add('00217B=39,4,0.6,0.95,0.7,Normal formula behaviour,1'); // .50 AE
+	AmmoList.Add('01F673=56,6,0.35,0.95,0.7,Explode only,1'); // 12 GA
+	AmmoList.Add('003B88=39,6,0.3,0.95,0.7,Normal formula behaviour,1'); // 28 Ga
+	AmmoList.Add('01F66B=49,7,0.8,0.95,0.7,No dismember/explode,1'); // .308 WIN
+	AmmoList.Add('01F66C=49,7,0.8,0.95,0.7,No dismember/explode,1'); // 7.62x51mm
+	AmmoList.Add('0012FE=46,7,0.78,0.95,0.7,No dismember/explode,1'); // 8x57mm
+	AmmoList.Add('001340=55,7,0.85,0.95,0.7,No dismember/explode,1'); // 300 WM
+	AmmoList.Add('0013B4=42,7,0.78,0.95,0.7,No dismember/explode,1'); // 303 BRIT
+	AmmoList.Add('0020BE=44,7,0.78,0.95,0.7,No dismember/explode,1'); // 7.62x54R
+	AmmoList.Add('02C8B1=41,4,0.68,0.95,0.7,Normal formula behaviour,1'); // .45-70 Govt
+	AmmoList.Add('04742B=25,4,0.52,0.95,0.7,No dismember/explode,1'); // 7.62x25mm
+	AmmoList.Add('009907=59,2,0.9,0.95,0.7,Explode only,1'); // Pasta Ammo
+	AmmoList.Add('18ABDF=56,4,0.78,0.95,0.7,Normal formula behaviour,1'); // 2mm EC
+	AmmoList.Add('0496EB=33,2,0.75,0.95,0.7,Normal formula behaviour,1'); // Comp 7.62x39mm
+	AmmoList.Add('04D39C=41,2,0.68,0.95,0.7,Normal formula behaviour,1'); // Comp .45-70 Govt
+	AmmoList.Add('245D53=49,2,0.8,0.95,0.7,Normal formula behaviour,1'); // Comp .308 WIN
+	AmmoList.Add('1943D0=49,2,0.8,0.95,0.7,Normal formula behaviour,1'); // NPC 5mm (replaced by 7.62x51mm)
+	AmmoList.Add('245D68=56,2,0.35,0.95,0.7,Normal formula behaviour,1'); // Comp 12ga
+	AmmoList.Add('245D6A=26,2,0.55,0.95,0.7,Normal formula behaviour,1'); // Comp 10mm
+	AmmoList.Add('245D6B=27,2,0.55,0.95,0.7,Normal formula behaviour,1'); // Comp .45 ACP
 	
 	DefaultOptionsMXPF;
 	InitializeMXPF;
@@ -109,6 +109,7 @@ begin
 		if (Signature(GetRecord(i)) = 'OMOD') then
 		begin
 			PreFilterOMODRecord(i);
+			//RemoveRecord(i);
 		end;
 	end;
 	
