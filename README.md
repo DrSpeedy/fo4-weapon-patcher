@@ -1,6 +1,9 @@
 # Brians XLSX Fo4 Weapon Patcher
 Patches balistic weapons based on values input into an XLSX spreadsheet. Requires BASH, Python3, FO4Edit
 
+#### Video Tutorial
+[![Video Tutorial Link](https://img.youtube.com/vi/cYfwkQnWfY4/0.jpg)](https://www.youtube.com/watch?v=cYfwkQnWfY4)
+
 #### Dependencies
 ```
 BASH:
