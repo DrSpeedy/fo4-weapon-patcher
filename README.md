@@ -1,6 +1,10 @@
 # Brians XLSX Fo4 Weapon Patcher
 Patches balistic weapons based on values input into an XLSX spreadsheet. Requires BASH, Python3, FO4Edit
 
+#### Update
+Bash no longer required to convert the spreadsheet as long as you have Excel or an editor capable of using macro embedded spreadsheets. Use the xlsm spreadsheet and click the button on the right side.
+You will see the text appear in the window above. Click into this text box then press `Ctrl+A` and then `Ctrl+C` to select all text and copy to the clipboard. From here paste the text into the FO4Edit script as described in the tutorial video
+
 #### Video Tutorial
 [![Video Tutorial Link](https://img.youtube.com/vi/cYfwkQnWfY4/0.jpg)](https://www.youtube.com/watch?v=cYfwkQnWfY4)
 
