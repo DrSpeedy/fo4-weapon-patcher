@@ -1,5 +1,5 @@
-# Brians XLSX Fo4 Weapon Patcher
-Patches balistic weapons based on values input into an XLSX spreadsheet. Requires BASH, Python3, FO4Edit
+# Brians FO4Edit / Excel Ammo Type Weapon Damage Patcher
+Patches balistic weapons based on ammo type. Requires Excel & FO4Edit
 
 #### Update
 Bash no longer required to convert the spreadsheet as long as you have Excel or an editor capable of using macro embedded spreadsheets. Use the xlsm spreadsheet and click the button on the right side.
@@ -8,30 +8,47 @@ You will see the text appear in the window above. Click into this text box then 
 #### Video Tutorial
 [![Video Tutorial Link](https://img.youtube.com/vi/cYfwkQnWfY4/0.jpg)](https://www.youtube.com/watch?v=cYfwkQnWfY4)
 
+#### Spreadsheet Screenshots
+[<img src="screenshots/1.png" width="600"/>](screenshots/1.png)
+[<img src="screenshots/0.png" width="600"/>](screenshots/0.png)
+
 #### Dependencies
 ```
-BASH:
- * bc
- * xlsx2csv
- 
+Excel w/ VBA Macro Support
+
 FO4Edit:
  * MXPF
+ 
+BASH (Only if you want to use the xlsx):
+ * bc
+ * xlsx2csv
 ```
 
 #### Installation
-Bash Script
+
+FO4Edit Script
+```
+Copy 'FO4 - Brians Weapon Patcher.pas' to 'Fo4Edit/Edit Scripts'
+Install MXPF to 'Fo4Edit/Edit Scripts/lib'
+```
+
+Bash Script (Only if you want to use the XLSX sheet)
 ```sh
 # Download the SH file to Linux or to WSL
 chmod +x ./weapons.sh
 sudo apt install bc
 sudo pip install xlsx2csv
 ```
-FO4Edit Script
-```
-Copy 'FO4 - Brians Weapon Patcher.pas' to 'Fo4Edit/Edit Scripts'
-```
 
 #### Usage
+Everyone w/ Windows & Excel:
+* Run Excel and disable protected mode
+* Edit values and click the button on the right
+* Replace the section in the Fo4Edit script same as described in video
+* Run Fo4Edit script & save
+* Make sure plugin loads last
+
+Linux:
 ```sh
 ./weapons.sh <path_to_xlsx>
 # Output will go to './test.txt' and to stdout
